@@ -21,7 +21,9 @@
 
 &lt;p&gt;Most notably, I no longer need a webhost with advanced capabilities. All it must do is serve static pages.&lt;/p&gt;
 
-&lt;p&gt;I could use &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; or &lt;a href=&#34;http://www.50webs.com/&#34;&gt;50Webs&lt;/a&gt; or any other free hosting service, without ever needing to upgrade.&lt;/p&gt;
+&lt;p&gt;I could use &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; or &lt;a href=&#34;http://www.50webs.com/&#34;&gt;50 Webs&lt;/a&gt; or any other free hosting service, without ever needing to upgrade.&lt;/p&gt;
+
+&lt;p&gt;Other benefits include writing content using markdown on my own computer, using the software I prefer. No mucking about with web based content editors.&lt;/p&gt;
 
 &lt;p&gt;Take a look and the &lt;a href=&#34;http://gohugo.io/overview/quickstart/&#34;&gt;Hugo documentation&lt;/a&gt; for how to get started.&lt;/p&gt;
 </description>
