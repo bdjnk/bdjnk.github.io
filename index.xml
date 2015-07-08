@@ -11,10 +11,10 @@
     
     <item>
       <title>Viewport Meta Tag for Mobile</title>
-      <link>http://bdjnk.github.io/post/viewports/</link>
+      <link>http://bdjnk.github.io/post/viewport/</link>
       <pubDate>Wed, 08 Jul 2015 14:49:06 -0400</pubDate>
       
-      <guid>http://bdjnk.github.io/post/viewports/</guid>
+      <guid>http://bdjnk.github.io/post/viewport/</guid>
       <description>&lt;p&gt;When I built the custom Bootstrap theme for &lt;a href=&#34;http://www.bitmote.com/&#34;&gt;bitmote&lt;/a&gt;, I encountered a wide range of issues. What I didn&amp;rsquo;t realize was the requirement to include the viewport meta tag to get the &amp;ldquo;&lt;a href=&#34;http://getbootstrap.com/css/#overview-mobile&#34;&gt;mobile first&lt;/a&gt;&amp;rdquo; functionality.&lt;/p&gt;
 
 &lt;p&gt;If only I&amp;rsquo;d seen &lt;a href=&#34;http://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972&#34;&gt;Don’t Forget the Viewport Meta Tag&lt;/a&gt; beforehand.&lt;/p&gt;
