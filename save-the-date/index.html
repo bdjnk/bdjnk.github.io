@@ -20,13 +20,26 @@ body {
 	text-align: center;
 	font-size: 4em;
 	text-shadow: 0 0 3px #FFFFFF;
+}
+div {
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
 	background: 
 		radial-gradient(
 			rgba(255, 221, 187, 0.0),
 			rgba(255, 221, 187, 0.1),
-			rgba(255, 221, 187, 0.4)
+			rgba(255, 221, 187, 0.3)
 		),
 		url(groovepaper.png) left top repeat;
+		width: 750px;
+		height: 750px;
+		border: 1px solid #000000;
+		border-radius: 6px;
+		box-shadow: 6px 6px 4px #000000;
+}
+p {
+	margin: 0.8em;
 }
 p.us {
 	font-size: 2em;
@@ -39,8 +52,9 @@ p.us span.small {
 
 	</head>
 	<body>
+		<div>
 		<p>
-			Save the Date!
+			Save the Date
 			<br>
 			for the upcoming wedding of
 		</p>
@@ -55,5 +69,6 @@ p.us span.small {
 			<br>
 			Brookline, Mass.
 		</p>
+		</div>
 	</body>
 </html>
