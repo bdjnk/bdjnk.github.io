@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal / Professional Site</title>
-    <link>http://localhost:1313/</link>
+    <link>http://bdjnk.github.io/</link>
     <description>Recent content on Personal / Professional Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jul 2015 14:49:06 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bdjnk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Viewport Meta Tag for Mobile</title>
-      <link>http://localhost:1313/post/viewport/</link>
+      <link>http://bdjnk.github.io/post/viewport/</link>
       <pubDate>Wed, 08 Jul 2015 14:49:06 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/viewport/</guid>
+      <guid>http://bdjnk.github.io/post/viewport/</guid>
       <description>&lt;p&gt;When I built the custom Bootstrap theme for &lt;a href=&#34;http://www.bitmote.com/&#34;&gt;bitmote&lt;/a&gt;, I encountered a wide range of issues. What I didn&amp;rsquo;t realize was the requirement to include the viewport meta tag to get the &amp;ldquo;&lt;a href=&#34;http://getbootstrap.com/css/#overview-mobile&#34;&gt;mobile first&lt;/a&gt;&amp;rdquo; functionality.&lt;/p&gt;
 
 &lt;p&gt;If only I&amp;rsquo;d seen &lt;a href=&#34;http://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972&#34;&gt;Don’t Forget the Viewport Meta Tag&lt;/a&gt; beforehand.&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Built with Hugo</title>
-      <link>http://localhost:1313/post/initial/</link>
+      <link>http://bdjnk.github.io/post/initial/</link>
       <pubDate>Mon, 06 Jul 2015 16:22:42 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/initial/</guid>
+      <guid>http://bdjnk.github.io/post/initial/</guid>
       <description>&lt;p&gt;This site is built with Hugo, a static site generator. Technically, this means that viewing the site requires nothing more than serving the pages, because these are static pages, generated beforehand.&lt;/p&gt;
 
 &lt;p&gt;Practically, this means that all development and writing is done on my local machine and I upload the generated site / content to a server when ready.&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://bdjnk.github.io/about/</link>
       <pubDate>Sat, 04 Jul 2015 22:07:54 -0400</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://bdjnk.github.io/about/</guid>
       <description>&lt;p&gt;Salubrious salutations, may you live long and prosper.&lt;/p&gt;
 
 &lt;p&gt;About me? Let&amp;rsquo;s see&amp;hellip; I&amp;rsquo;m Jewish, I code; New York&amp;rsquo;s my abode.&lt;/p&gt;
