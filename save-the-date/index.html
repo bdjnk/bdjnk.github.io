@@ -23,8 +23,10 @@ body {
 }
 div {
 	margin: auto;
-	position: absolute;
-	top: 0; left: 0; bottom: 0; right: 0;
+	width: 750px;
+	height: 750px;
+}
+#card {
 	background: 
 		radial-gradient(
 			rgba(255, 221, 187, 0.0),
@@ -32,43 +34,50 @@ div {
 			rgba(255, 221, 187, 0.3)
 		),
 		url(groovepaper.png) left top repeat;
-		width: 750px;
-		height: 750px;
 		border: 1px solid #000000;
 		border-radius: 6px;
 		box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
 }
+#ps {
+	font-size: 0.6em;
+}
 p {
 	margin: 0.8em;
 }
-p.us {
+#names {
 	font-size: 2em;
 	margin: 0;
 }
-p.us span.small {
+#names .small {
 	font-size: 0.5em;
 }
 		</style>
-
 	</head>
 	<body>
-		<div>
-		<p>
-			Save the Date
-			<br>
-			for the upcoming wedding of
-		</p>
-		<p class="us">
-			Rebecca Ziino
-			<span class="small">and</span>
-			<br>
-			Michael Plotke
-		</p>
-		<p>
-			October 30, 2016, 4pm chuppah
-			<br>
-			Brookline, Mass.
-		</p>
+		<div id="card">
+			<p>
+				Save the Date!
+				<br>
+				for the upcoming wedding of
+			</p>
+			<p id="names">
+				Rebecca Ziino
+				<span class="small">and</span>
+				<br>
+				Michael Plotke
+			</p>
+			<p>
+				October 30, 2016, 4pm chuppah
+				<br>
+				Brookline, Mass.
+			</p>
+		</div>
+		<div id="ps">
+			<p>
+				Formal invitations to follow.
+				<br>
+				Meanwhile, please visit the <a href="https://www.blueprintregistry.com/registry/RebeccaandMichael10.30.16">Wedding Registry</a>.
+			</p>
 		</div>
 	</body>
 </html>
