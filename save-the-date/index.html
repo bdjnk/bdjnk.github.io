@@ -13,27 +13,48 @@
 		<meta name="keywords" content="">
 
 		<style>
+html {
+	background:
+		linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url(autumn_texture.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
 body {
 	font-family: 'Tangerine', cursive;
 	text-align: center;
 	font-size: 62px;
+	color: rgba(128, 87, 50, 1)
 }
 div {
 	margin: 25px auto;
 }
+a {
+	text-decoration: none;
+	color: rgba(92, 127, 41, 1);
+}
+a:visited {
+	color: rgba(92, 127, 41, 1);
+}
+a:active {
+	color: rgba(128, 87, 50, 1);
+}
 #card {
 	background: 
 		radial-gradient(
-			rgba(255, 221, 187, 0.0),
-			rgba(255, 221, 187, 0.1),
-			rgba(255, 221, 187, 0.3)
+			ellipse,
+			rgba(255, 238, 187, 0.2),
+			rgba(255, 238, 187, 0.3),
+			rgba(255, 238, 187, 0.7)
 		),
 		url(groovepaper.png) left top repeat;
-	border: 1px solid #000000;
+	border: 1px solid rgba(0, 0, 0, 1);
 	border-radius: 6px;
 	box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
 	width: 720px;
-	text-shadow: 0 0 3px #FFFFFF;
+	text-shadow: 0 0 3px rgba(255, 255, 255, 1);
 }
 #ps {
 	font-size: 42px;
@@ -68,14 +89,14 @@ p {
 				<br>
 				Brookline, Mass.
 			</p>
-		</div>
 		<div id="ps">
 			<p>
 				Formal mailed invitations to follow.
 				<br>
 				Please
 				<a href="https://docs.google.com/forms/d/1UtcwR52_0cTwHaL0UJpTS1EPSR-IWO7hC1NqawOcmec/viewform">
-					let us know</a>
+					let us know
+				</a>
 				if you are considering attending.
 			</p>
 			<p>
@@ -83,6 +104,7 @@ p {
 				<a href="https://www.blueprintregistry.com/registry/RebeccaandMichael10.30.16">
 					Wedding Registry</a>.
 			</p>
+		</div>
 		</div>
 	</body>
 </html>
