@@ -14,78 +14,89 @@
 		<meta name="keywords" content="">
 
 		<style>
-			html, body {
+			html {
+			  box-sizing: border-box;
+			}
+			*, *:before, *:after {
+			  box-sizing: inherit;
+			}
+			body {
 				margin: 0;
 				padding: 0;
+				background-image: url(paper.jpeg);
 			}
-			#heart {
+			#graphic {
 				height: 100vh;
 				width: 100vw;
 				filter: grayscale(1);
+				padding: 10%;
 			}
-			#heart:hover, #heart:active {
+			#graphic:hover, #graphic:active {
 				filter: none;
+			}
+			#heart {
+				height: 100%;
+				width: 100%;
 			}
 			#message {
 				font-family: 'Tangerine', cursive;
-				font-size: 2em;
+				font-size: 2.2em;
 				width: 100vw;
-			  display: flex;
-			  justify-content: center;
-			  align-items: center;
+				text-shadow: white 0px 0px 2px;
 			}
 			#message > div {
 				text-align: center;
 				padding: 10%;
 			}
-			.em3 {
-				font-size: 3em;
-			}
-			.em4 {
-				font-size: 4em;
+			.center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 			}
 		</style>
 	</head>
 	<body>
-		<svg
-		  xmlns:dc="http://purl.org/dc/elements/1.1/"
-		  xmlns:cc="http://creativecommons.org/ns#"
-		  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-		  xmlns:svg="http://www.w3.org/2000/svg"
-		  xmlns="http://www.w3.org/2000/svg"
-		  id="heart"
-		  preserveAspectRatio="xMidYMid meet"
-		  viewBox="0 0 10240 10240"
-		  height="1024px"
-		  width="1024px"
-		  version="1.0">
-		  <metadata id="metadata3872">
-		    <rdf:RDF>
-		      <cc:Work rdf:about="">
-		        <dc:format>image/svg+xml</dc:format>
-		        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-		        <dc:title></dc:title>
-		      </cc:Work>
-		    </rdf:RDF>
-		  </metadata>
-		  <defs id="defs3870" />
-		  <g stroke="none" fill="#000000" id="layerbg1">
-		    <path
-		       id="path3848"
-		       d="M4863 9478 c-469 -619 -836 -1043 -1289 -1488 -249 -244 -387 -364 -805 -700 -454 -365 -587 -483 -791 -703 -195 -212 -430 -508 -559 -704 -139 -214 -237 -506 -286 -853 -24 -172 -24 -599 0 -790 93 -732 331 -1338 713 -1815 90 -113 285 -304 386 -379 565 -422 1212 -445 1918 -69 247 132 561 363 808 595 52 48 97 88 100 88 4 0 59 -41 122 -91 550 -430 1072 -681 1572 -755 89 -13 157 -15 318 -11 185 5 217 8 325 35 348 88 580 224 855 501 331 333 560 739 717 1271 111 376 157 703 156 1110 0 374 -32 600 -124 875 -54 163 -108 273 -222 452 -193 305 -352 506 -569 719 -157 155 -220 206 -603 499 -330 252 -473 366 -605 479 -553 476 -1067 994 -1724 1739 -120 136 -219 247 -220 247 -1 0 -87 -114 -193 -252z m826 -683 c645 -688 1137 -1135 1771 -1610 624 -467 805 -652 1121 -1145 223 -349 307 -621 340 -1102 28 -423 -58 -978 -222 -1428 -51 -142 -186 -423 -263 -549 -165 -270 -386 -510 -614 -663 -102 -69 -318 -172 -427 -203 -284 -82 -606 -87 -910 -15 -215 50 -527 175 -729 291 -216 125 -467 295 -624 422 l-74 60 -71 -70 c-110 -107 -214 -194 -391 -325 -346 -258 -668 -411 -1006 -480 -97 -19 -146 -23 -310 -23 -168 0 -210 3 -300 23 -322 72 -590 229 -845 493 -429 446 -721 1134 -801 1889 -20 194 -15 598 11 760 44 288 126 528 245 720 25 41 93 138 150 215 335 453 571 685 1206 1185 334 263 541 446 815 720 400 400 715 765 1142 1323 l157 207 207 -233 c113 -127 303 -335 422 -462z" />
-		  </g>
-		  <g stroke="none" fill="#ca4040" id="layerbg2">
-		    <path
-		       id="path3851"
-		       d="M4885 9287 c-423 -555 -742 -925 -1134 -1317 -264 -264 -474 -449 -805 -710 -641 -505 -888 -748 -1226 -1205 -208 -281 -287 -443 -355 -727 -44 -186 -57 -301 -62 -563 -7 -350 21 -598 103 -930 140 -559 386 -1029 719 -1374 217 -225 402 -350 655 -444 175 -65 279 -82 500 -82 164 0 213 4 310 23 338 69 660 222 1006 480 177 131 281 218 391 325 l71 70 74 -60 c157 -127 408 -297 624 -422 202 -116 514 -241 729 -291 304 -72 626 -67 910 15 109 31 325 134 428 204 231 155 467 410 633 682 77 126 212 407 263 549 164 450 250 1005 222 1428 -33 481 -117 753 -340 1102 -318 496 -511 694 -1141 1165 -342 256 -522 404 -855 700 -337 300 -880 858 -1325 1360 -117 132 -215 241 -219 242 -3 2 -82 -97 -176 -220z" />
-		  </g>
-		</svg>
-		<div id="message">
+		<div id="graphic" class="center">
+			<svg
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:cc="http://creativecommons.org/ns#"
+				xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:svg="http://www.w3.org/2000/svg"
+				xmlns="http://www.w3.org/2000/svg"
+				id="heart"
+				preserveAspectRatio="xMidYMid meet"
+				viewBox="0 0 999.99999 1000"
+				height="100"
+				width="100"
+				version="1.0">
+			  <metadata id="metadata3872">
+			    <rdf:RDF>
+			      <cc:Work rdf:about="">
+			        <dc:format>image/svg+xml</dc:format>
+			        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+			        <dc:title></dc:title>
+			      </cc:Work>
+			    </rdf:RDF>
+			  </metadata>
+			  <defs id="defs3870" />
+			  <g id="layerbg1" style="fill:#000000;stroke:none" transform="matrix(0.12487488,0,0,0.1247078,-139.23549,-213.40693)">
+			    <path
+			      id="path3848"
+			      d="M 4863,9478 C 4204.098,8585.6587 3432.2115,7776.3303 2544.8965,7108.4377 2051.3628,6705.9568 1596.4943,6228.0385 1300.9434,5660.2253 951.40101,4772.3043 1116.2653,3747.2945 1530.093,2909.8889 1863.471,2244.3868 2528.8923,1638.5492 3320.3165,1716.3018 4002.8779,1775.1091 4572.1499,2211.1338 5058,2660 c 650.8051,-518.6243 1471.5699,-1005.1195 2337,-822 851.1558,208.9014 1378.2383,1039.4372 1592.0552,1841.9573 207.0592,813.6349 242.6463,1769.1052 -281.0161,2476.7693 C 8189.2155,6993.9434 7263.628,7424.7863 6589.7188,8111.7656 6044.4016,8617.8667 5548.5293,9173.3673 5056,9730 c -64.906,-83.5546 -128.3233,-168.2655 -193,-252 z m 826,-683 C 6336.5849,8076.2779 7081.1661,7456.6268 7853.9688,6878.4062 8428.0019,6396.7166 8909.1345,5713.215 8921,4938 8948.4428,3999.0782 8658.9143,2971.2718 7907.0762,2359.3418 7342.3367,1907.1836 6537.7577,1963.9745 5924.8906,2283.625 5614.179,2436.7771 5326.81,2635.373 5058,2853 4504.2955,2305.5023 3732.9538,1801.7222 2920.2478,1992.5015 2056.6549,2232.843 1579.8612,3124.0784 1400.865,3943.5325 c -153.9225,740.0088 -131.6747,1601.4105 400.9089,2193.9345 582.988,801.544 1492.9188,1268.2447 2141.252,2008.3393 405.075,419.7432 766.72,878.4724 1116.9741,1344.1937 207.1564,-233.9287 415.2821,-467.016 629,-695 z" />
+			  </g>
+			  <g id="layerbg2" style="fill: #ca4040; stroke: none" transform="matrix(0.12487488,0,0,0.1247078,-139.23549,-213.40693)">
+			    <path
+			      id="path3851"
+			      d="M 4885,9287 C 4245.0321,8421.2124 3487.163,7644.8242 2623.7952,7000.4326 2137.928,6591.4935 1665.3445,6117.3107 1419.9062,5521.8906 c -271.9241,-930.98 -70.2775,-1981.6132 471.9532,-2779.2656 341.6054,-510.7495 934.5183,-891.6278 1568.2656,-803.25 623.9362,77.5239 1158.038,466.5358 1597.875,893.625 641.1797,-523.2732 1484.3517,-1000.2932 2337,-758 877.2229,287.0821 1341.6452,1210.5577 1491.4463,2066.0715 134.6921,707.134 62.6534,1492.4687 -399.9346,2072.075 C 7992.9259,6954.3514 7157.4452,7344.8754 6539.4727,7964.1968 6015.7799,8447.9288 5536.9507,8977.1438 5061,9507 c -62.7866,-69.9579 -118.402,-145.8364 -176,-220 z" />
+			  </g>
+			</svg>
+		</div>
+		<div id="message" class="center">
 			<div>
-				<p style="font-size: 2em">Happy Birthday!</p>
+				<p style="font-size: 1.8em">Happy Birthday!</p>
 				<p>May this be a blessed year for you, beyond all expectations. May you learn and grow and teach in every positive way with great and ever increasing success. May you delight in abundant physical and spiritual blessings, and may we have all we need and more.</p>
-				<p style="font-size: 1.5em">You're my favorite, my wife, my snuggle love.</p>
-				<p style="font-size: 2em">I love you!</p>
+				<p style="font-size: 1.4em">You're my favorite, my wife, my snuggle love.</p>
+				<p style="font-size: 1.8em">I love you!</p>
 			</div>
 		</div>
 	</body>
